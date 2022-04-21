@@ -29,3 +29,9 @@ You can generate prediction by
 ./darknet detector test kitti_data/kitti.data cfg/yolov3-kitti.cfg yolov3-kitti_best.weight
 ```
 And provide path to the image to generate prediction
+
+To derive the prediction output, use
+```bash
+./darknet detector valid kitti_data/kitti.data cfg/yolov3-kitti.cfg yolov3-kitti_best.weights -out "" -gpu 0 -thresh .5
+```
+Please ensure the right .txt file is linked during the validation. The generated prediction result can be found under `.\results\`
