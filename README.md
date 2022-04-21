@@ -37,6 +37,6 @@ To derive the prediction output, use
 Please ensure the right .txt file is linked during the validation. The generated prediction result can be found under `.\results\`
 
 ## Reference
-If you have any problems with .cfg setting and training issues, you can find this link helpful https://github.com/AlexeyAB/darknet
+This code is based on the work from https://github.com/AlexeyAB/darknet
 
 
