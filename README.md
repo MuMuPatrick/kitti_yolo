@@ -35,3 +35,8 @@ To derive the prediction output, use
 ./darknet detector valid kitti_data/kitti.data cfg/yolov3-kitti.cfg yolov3-kitti_best.weights -out "" -gpu 0 -thresh .5
 ```
 Please ensure the right .txt file is linked during the validation. The generated prediction result can be found under `.\results\`
+
+## Reference
+If you have any problems with .cfg setting and training issues, you can find this link helpful https://github.com/AlexeyAB/darknet
+
+
